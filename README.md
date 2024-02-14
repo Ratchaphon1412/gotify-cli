@@ -24,6 +24,14 @@ for help and usage
 $ ./gotify-client  sendNotifyMessage "Message" host:port
 ```
 
+## Test with Server
+
+```bash
+
+./gotify-client sendNotifyMessage "Hello World" 119.59.99.143:8998
+
+```
+
 ## Server Repo
 
 [Gotify Server](https://github.com/Ratchaphon1412/gotify-cli-server)
