@@ -32,13 +32,13 @@ $ cd gotify-cli
 ```
 
 ```bash
-$ ./gotify-client -h
+$ ./gotify-cli -h
 ```
 
 for help and usage
 
 ```bash
-$ ./gotify-client  sendNotifyMessage "Message" host:port
+$ ./gotify-cli sendNotifyMessage "Message" host:port
 ```
 
 ## Test with Server
@@ -47,7 +47,7 @@ using the ip 119.59.99.143:8998
 
 ```bash
 
-./gotify-client sendNotifyMessage "Hello World" 119.59.99.143:8998
+./gotify-cli sendNotifyMessage "Hello World" 119.59.99.143:8998
 
 ```
 
