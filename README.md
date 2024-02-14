@@ -54,3 +54,7 @@ using the ip 119.59.99.143:8998
 ## Server Repo
 
 [Click this link](https://github.com/Ratchaphon1412/gotify-cli-server)
+
+## Demo
+
+[Click this link](https://youtu.be/qDsILvQNk2s)
