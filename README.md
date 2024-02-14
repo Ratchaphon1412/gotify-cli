@@ -23,3 +23,7 @@ for help and usage
 ```bash
 $ ./gotify-client  sendNotifyMessage "Message" host:port
 ```
+
+## Server Repo
+
+[Gotify Server](https://github.com/Ratchaphon1412/gotify-cli-server)
