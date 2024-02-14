@@ -15,13 +15,15 @@ import (
 // sendNotifyMessageCmd represents the sendNotifyMessage command
 var sendNotifyMessageCmd = &cobra.Command{
 	Use:   "sendNotifyMessage",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "Send a message to a gotify server.",
+	Long: `Send a message to a gotify server.
+	It is a simple tool that allows you to send messages to a gotify server using the command line.
+	
+	For example:
+	
+	$ gotify-cli sendNotifyMessage "Hello, World!" host:port
+	
+	This will send the message "Hello, World!" to the gotify server running at host:port.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(args) > 0 {
 			// text
